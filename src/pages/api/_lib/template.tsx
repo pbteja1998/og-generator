@@ -6,42 +6,7 @@ import { sanitizeHtml } from "./sanitizer";
 
 const getCommonCSS = () => {
   return `
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-    body {
-        background: white;
-        color: black;
-        background-size: 100px 100px;
-        height: 100vh;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        font-family: 'Inter', sans-serif;
-        font-weight: 400;
-        font-size: 100px;
-        margin: 0;
-        padding: 0;
-    }
-
-    * {
-        box-sizing: border-box;
-    }
-
-    h1, h2, h3, h4, h5, p {
-      margin: 0;
-    }
-
-    code {
-        color: #D400FF;
-        font-family: 'Vera';
-        white-space: pre-wrap;
-        letter-spacing: -5px;
-    }
-
-    code:before, code:after {
-        content: '\`';
-    }
 `;
 };
 
@@ -69,7 +34,7 @@ export const getHtml = (config: IConfig & ILayoutConfig) => {
         ${getCommonCSS()}
         ${layout?.getCSS != null ? layout.getCSS(config) : ""}
     </style>
-    <body>
+    <body class="relative min-h-screen overflow-x-hidden font-sans antialiased text-gray-900 bg-gray-50">
       ${rendered}
     </body>
 </html>`;

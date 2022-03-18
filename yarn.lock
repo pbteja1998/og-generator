@@ -1944,6 +1944,11 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
+light-date@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/light-date/-/light-date-1.2.0.tgz#b945e2c5acd8c42f07811430a253ecc0d2e28942"
+  integrity sha512-fdndhOogZm9m/XeAmP+UDgvplEd3SEfFoS3ObI6xhLmNyX3VdT+Ss8mddvP3XmVnh7I3t/Yg4OuFvWvYD+YBeA==
+
 lines-and-columns@^1.1.6:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
