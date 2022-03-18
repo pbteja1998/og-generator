@@ -6,6 +6,8 @@ import { simpleLayout } from "./simpleLayout";
 import { starterLayout } from "./starterLayout";
 import { blogLayout } from "./blogLayout";
 import { featherBlogLayout } from "./featherBlogLayout";
+import { featherAuthorLayout } from "./featherAuthorLayout";
+import { featherTagLayout } from "./featherTagLayout";
 
 /**
  * All layouts that are available in the UI
@@ -16,6 +18,8 @@ export const layouts: ILayout[] = [
   railwayLayout,
   blogLayout,
   featherBlogLayout,
+  featherAuthorLayout,
+  featherTagLayout,
   docsLayout,
   patternLayout,
 ];
