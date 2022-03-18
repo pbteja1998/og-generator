@@ -32,12 +32,21 @@ const Component: LayoutComponent = ({ config }) => {
           </p>
         </div>
         <div>
-          <div className="relative h-[360px] w-[360px]">
+          <div className="relative" style={{ width: "275px", height: "275px" }}>
             <div
-              className="bg-conic-gradient absolute -inset-0.5 rounded-full rotate-180 opacity-30 blur-lg"
-              style={{ filter: "blur(16px)" }}
+              className="bg-conic-gradient absolute rounded-full rotate-180 opacity-30 blur-lg"
+              style={{
+                filter: "blur(16px)",
+                top: "-0.125rem",
+                bottom: "-0.125rem",
+                right: "-0.125rem",
+                left: "-0.125rem",
+              }}
             ></div>
-            <div className="relative flex-shrink-0 rounded-full inline-flex items-center justify-center bg-gray-200 h-[360px] w-[360px] border-8 border-gray-50">
+            <div
+              className="relative flex-shrink-0 rounded-full inline-flex items-center justify-center bg-gray-200 border-8 border-gray-50"
+              style={{ width: "275px", height: "275px" }}
+            >
               <svg
                 className="w-48 h-48 text-gray-400"
                 viewBox="0 0 220 220"

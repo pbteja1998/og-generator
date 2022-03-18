@@ -32,15 +32,25 @@ const Component: LayoutComponent = ({ config }) => {
           </p>
         </div>
         <div>
-          <div className="relative h-[360px] w-[360px] mx-auto">
+          <div
+            className="relative mx-auto"
+            style={{ width: "275px", height: "275px" }}
+          >
             <div
-              className="bg-conic-gradient absolute -inset-0.5 rounded-full rotate-180 opacity-30 blur-lg"
-              style={{ filter: "blur(16px)" }}
+              className="bg-conic-gradient absolute rounded-full rotate-180 opacity-30 blur-lg"
+              style={{
+                filter: "blur(16px)",
+                top: "-0.125rem",
+                bottom: "-0.125rem",
+                right: "-0.125rem",
+                left: "-0.125rem",
+              }}
             ></div>
             <img
-              className="flex-shrink-0 relative object-cover rounded-full bg-gray-200 h-[360px] w-[360px] border-8 border-gray-50"
+              className="flex-shrink-0 relative object-cover rounded-full bg-gray-200 border-8 border-gray-50"
               src={authorImage}
               alt=""
+              style={{ width: "275px", height: "275px" }}
             />
           </div>
         </div>
