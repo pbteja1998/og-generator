@@ -20,10 +20,8 @@ const Home: NextPage = () => {
   return (
     <main tw="px-6 pb-20 max-w-6xl w-full mx-auto">
       <header tw="text-center mt-20 mb-12 space-y-6">
-        <h1 tw="text-5xl font-bold">Railway OG Image Generator</h1>
-        <h2 tw="text-xl text-gray-600">
-          Dynamic open graph images for fun and profit
-        </h2>
+        <h1 tw="text-5xl font-bold">Feather OG Image Generator</h1>
+        <h2 tw="text-xl text-gray-600">Dynamic open graph images</h2>
       </header>
 
       {/* We pull the state from local storage so need the app to be loaded in the browser */}
@@ -33,7 +31,7 @@ const Home: NextPage = () => {
           <Viewer />
         </section>
       )}
-
+      {/* 
       <section tw="mt-16 grid gap-8 grid-cols-1 md:grid-cols-2">
         <div>
           <H2>What is This?</H2>
@@ -83,7 +81,7 @@ const Home: NextPage = () => {
             </Link>
           </P>
         </div>
-      </section>
+      </section> */}
     </main>
   );
 };

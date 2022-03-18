@@ -13,15 +13,15 @@ import { featherTagLayout } from "./featherTagLayout";
  * All layouts that are available in the UI
  */
 export const layouts: ILayout[] = [
-  simpleLayout,
-  starterLayout,
-  railwayLayout,
-  blogLayout,
+  // simpleLayout,
+  // starterLayout,
+  // railwayLayout,
+  // blogLayout,
   featherBlogLayout,
   featherAuthorLayout,
   featherTagLayout,
-  docsLayout,
-  patternLayout,
+  // docsLayout,
+  // patternLayout,
 ];
 
 export const getDefaultLayout = (layout: ILayout): ILayoutConfig => {

@@ -9,13 +9,13 @@ export interface Props extends NextSeoProps {
   image?: string;
 }
 
-const title = "Railway OG Image Generator";
+const title = "Feather OG Image Generator";
 export const url = "";
-const description = "Service that generates dynamic OG images for railway.app";
+const description =
+  "Service that generates dynamic OG images for blogs on feather.is";
 
 // Generate OG image for itself
-const image =
-  "https://og.railway.app/api/image?fileType=png&layoutName=Railway&Theme=Dark&Title=Open+Graph%5CnImage+Generator&Sub+Title=og.railway.app";
+const image = "https://feather.is/images/og-image.png";
 
 const config: DefaultSeoProps = {
   title,
@@ -27,7 +27,7 @@ const config: DefaultSeoProps = {
     images: [{ url: image }],
   },
   twitter: {
-    handle: "@Railway_App",
+    handle: "@feather_blogs",
     cardType: "summary_large_image",
   },
 };
