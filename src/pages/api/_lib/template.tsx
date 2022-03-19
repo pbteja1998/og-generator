@@ -759,6 +759,12 @@ Ensure the default browser behavior of the 'hidden' attribute.
 .bg-conic-gradient {
   background: linear-gradient(90deg, #44FF9A -0.55%, #44B0FF 22.86%, #8B44FF 48.36%, #FF6644 73.33%, #EBFF70 99.34%);
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif !important;
+}
 `;
 
 const getCommonCSS = () => {
