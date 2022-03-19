@@ -799,7 +799,7 @@ export const getHtml = (config: IConfig & ILayoutConfig) => {
       </div>
       <div
         class="relative px-20 py-16 origin-top-left"
-        style="transform: scale(1.75);"
+        style="transform: scale(1);"
       >
         ${rendered}
       </div>
