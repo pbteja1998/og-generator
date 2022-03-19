@@ -193,7 +193,7 @@ const Component: LayoutComponent = ({ config }) => {
   );
 };
 
-export const featherBlogLayout: ILayout = {
+export const featherArticleLayout: ILayout = {
   name: "article",
   properties: [
     {

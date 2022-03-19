@@ -5,7 +5,7 @@ import { railwayLayout } from "./railwayLayout";
 import { simpleLayout } from "./simpleLayout";
 import { starterLayout } from "./starterLayout";
 import { blogLayout } from "./blogLayout";
-import { featherBlogLayout } from "./featherBlogLayout";
+import { featherArticleLayout } from "./featherArticleLayout";
 import { featherAuthorLayout } from "./featherAuthorLayout";
 import { featherTagLayout } from "./featherTagLayout";
 
@@ -17,7 +17,7 @@ export const layouts: ILayout[] = [
   // starterLayout,
   // railwayLayout,
   // blogLayout,
-  featherBlogLayout,
+  featherArticleLayout,
   featherAuthorLayout,
   featherTagLayout,
   // docsLayout,
