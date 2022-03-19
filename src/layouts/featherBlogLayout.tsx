@@ -196,7 +196,7 @@ const Component: LayoutComponent = ({ config }) => {
 };
 
 export const featherBlogLayout: ILayout = {
-  name: "Feather Blog",
+  name: "article",
   properties: [
     {
       name: "title",

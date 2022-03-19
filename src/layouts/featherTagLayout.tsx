@@ -74,7 +74,7 @@ const Component: LayoutComponent = ({ config }) => {
 };
 
 export const featherTagLayout: ILayout = {
-  name: "Feather Tag",
+  name: "tag",
   properties: [
     {
       name: "count",
@@ -91,7 +91,7 @@ export const featherTagLayout: ILayout = {
     {
       name: "description",
       type: "text",
-      default: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit alias velit similique illum rem consequatur fuga quidem sed. Sed perspiciatis totam quis quas pariatur id beatae odit tempore incidunt quaerat.`,
+      default: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit alias velit similique illum rem consequatur fuga quidem sed. `,
       placeholder: "Author Bio",
     },
     {

@@ -60,7 +60,7 @@ const Component: LayoutComponent = ({ config }) => {
 };
 
 export const featherAuthorLayout: ILayout = {
-  name: "Feather Author",
+  name: "author",
   properties: [
     {
       name: "count",
@@ -77,7 +77,7 @@ export const featherAuthorLayout: ILayout = {
     {
       name: "authorBio",
       type: "text",
-      default: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit alias velit similique illum rem consequatur fuga quidem sed. Sed perspiciatis totam quis quas pariatur id beatae odit tempore incidunt quaerat.`,
+      default: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit alias velit similique illum rem consequatur fuga quidem sed. `,
       placeholder: "Author Bio",
     },
     {
