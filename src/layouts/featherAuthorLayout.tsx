@@ -14,8 +14,8 @@ const Component: LayoutComponent = ({ config }) => {
 
   return (
     <>
-      {logo && <img className="w-auto h-10" src={logo} alt="" />}
-      <div className="flex items-start gap-16 mt-16">
+      {logo && <img className="w-auto h-10 mb-16" src={logo} alt="" />}
+      <div className="flex items-start gap-16">
         <div>
           {author && (
             <p className="max-w-2xl text-6xl font-bold tracking-tight text-gray-900">

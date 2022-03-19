@@ -14,11 +14,9 @@ const Component: LayoutComponent = ({ config }) => {
 
   return (
     <>
-      {logo && <img className="w-auto h-10" src={logo} alt="" />}
+      {logo && <img className="w-auto h-10 mb-16" src={logo} alt="" />}
 
-      {date && (
-        <p className="mt-16 text-2xl font-semibold text-gray-500">{date}</p>
-      )}
+      {date && <p className="text-2xl font-semibold text-gray-500">{date}</p>}
 
       <div className="my-8">
         <svg
@@ -174,7 +172,7 @@ const Component: LayoutComponent = ({ config }) => {
           />
         </svg>
       </div>
-      <p className="max-w-2xl text-6xl font-bold tracking-tight text-gray-900">
+      <p className="max-w-3xl text-6xl font-bold tracking-tight text-gray-900">
         {title}
       </p>
       <div className="flex items-center mt-8">
